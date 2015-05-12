@@ -14,6 +14,7 @@
 		2170DBEA1B020CA700FAA948 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2170DBE91B020CA700FAA948 /* Images.xcassets */; };
 		2170DBED1B020CA700FAA948 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2170DBEB1B020CA700FAA948 /* LaunchScreen.xib */; };
 		2170DBF91B020CA700FAA948 /* VerticalCenteredScrollViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2170DBF81B020CA700FAA948 /* VerticalCenteredScrollViewExampleTests.m */; };
+		2170DC051B020CE700FAA948 /* UIVerticalCenteredScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2170DC041B020CE700FAA948 /* UIVerticalCenteredScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2170DBF21B020CA700FAA948 /* VerticalCenteredScrollViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerticalCenteredScrollViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2170DBF71B020CA700FAA948 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2170DBF81B020CA700FAA948 /* VerticalCenteredScrollViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalCenteredScrollViewExampleTests.m; sourceTree = "<group>"; };
+		2170DC031B020CE700FAA948 /* UIVerticalCenteredScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIVerticalCenteredScrollView.h; sourceTree = "<group>"; };
+		2170DC041B020CE700FAA948 /* UIVerticalCenteredScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIVerticalCenteredScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2170DBDB1B020CA700FAA948 /* VerticalCenteredScrollViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				2170DC021B020CCC00FAA948 /* VerticalCenteredScrollView */,
 				2170DBE01B020CA700FAA948 /* AppDelegate.h */,
 				2170DBE11B020CA700FAA948 /* AppDelegate.m */,
 				2170DBE31B020CA700FAA948 /* ViewController.h */,
@@ -117,6 +121,15 @@
 				2170DBF71B020CA700FAA948 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2170DC021B020CCC00FAA948 /* VerticalCenteredScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				2170DC031B020CE700FAA948 /* UIVerticalCenteredScrollView.h */,
+				2170DC041B020CE700FAA948 /* UIVerticalCenteredScrollView.m */,
+			);
+			name = VerticalCenteredScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2170DBE51B020CA700FAA948 /* ViewController.m in Sources */,
+				2170DC051B020CE700FAA948 /* UIVerticalCenteredScrollView.m in Sources */,
 				2170DBE21B020CA700FAA948 /* AppDelegate.m in Sources */,
 				2170DBDF1B020CA700FAA948 /* main.m in Sources */,
 			);
